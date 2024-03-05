@@ -7,11 +7,19 @@ export const styles = StyleSheet.create({
         padding: 24,
     },
     title: {
-        fontSize: theme.fonts.size.heading.xl,
         lineHeight: 44,
         marginTop: 42,
+        fontSize: theme.fonts.size.heading.xl,
+        fontFamily: theme.fonts.family.bold,
     },
-    subtitle:{
-        fontSize: theme.fonts.size.body.md,
+    subtitle: {
+        fontFamily: theme.fonts.family.regular,
+    },
+    message: {
+      marginTop: 12,
+      marginBottom: 38,
+      fontSize: theme.fonts.size.body.md,
+      fontFamily: theme.fonts.family.regular,
+      color: theme.colors.gray_400,
     },
 })
